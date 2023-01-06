@@ -1,5 +1,126 @@
-*{
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Work Sans', sans-serif;
-margin:0px;
-}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+  }
+/*style header*/
+header {
+    background-image: url(images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+  }
+  section{
+      padding-top: 130px;
+  }
+  .banner-content {
+    position: absolute;
+    top: 28%;
+    right: 18%;
+    width: 458px;
+    text-align: right;
+  }
+  .banner-content h2 {
+    font-weight: 700;
+  
+    font-size: 65px;
+  
+    color: #ffff;
+  
+    padding-bottom: 24px;
+  }
+  .banner-content h2 span {
+    color: #badefe;
+  }
+  .banner-content p {
+    color: #ffff;
+  
+    line-height: 26px;
+  
+    padding-bottom: 32px;
+  }
+  /*btn style */
+  .btn-primary{
+    padding: 21px 26px;
+  
+    font-weight: 600;
+  
+    font-size: 20px;
+  
+    color: #005fac;
+  
+    border: none;
+  
+    border-radius: 5px;
+  }
+  .fail-year {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .person-img {
+    margin-left: 206px;
+  }
+  .person-img img {
+  }
+  .person-content {
+    width: 420px;
+    margin-left: 87px;
+    margin-top: 130px;
+  }
+  .person-content h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 281px;
+    padding-bottom: 24px;
+    color: #151414;
+  }
+  .person-content p {
+    line-height: 26px;
+    padding-bottom: 16px;
+    color: #444343;
+  }
+  .person-content ul {
+    list-style: none;
+  }
+  .person-content ul li {
+    line-height: 30px;
+  }
+  .person-content ul li i {
+    color: #16d887;
+  }
+  .plan {
+    
+  }
+  .my_plan {
+    font-weight: 700;
+  
+    font-size: 40px;
+  
+    color: #151414;
+  
+    text-align: center;
+  }
+  .my_plan_title {
+    margin-top: 50px;
+  
+    display: flex;
+  
+    justify-content: space-evenly;
+  }
+  .box {
+    text-align: center;
+  }
+  .box img {
+  }
+  .box h2 {
+    padding: 16px 0;
+  }
+  .box p {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+  }
