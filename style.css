@@ -127,8 +127,7 @@ header {
   /*watch section style*/
   .watch {
     background-image: url(images/watch.png),
-    
-    linear-gradient(to right, #F15B22, rgb(221, 211, 207));
+   linear-gradient(to right, #F15B22, rgb(221, 211, 207));
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
